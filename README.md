@@ -17,3 +17,24 @@ Run cmake:
 ```
 cmake -S source -B build
 ```
+
+Compile with gcc:
+
+```
+gcc -Wall ./source/hello.c -o ./build/hello
+```
+
+Run hello binary:
+
+```
+./build/hello
+```
+Output:
+
+```
+Hello, World!
+```
+
+---
+
+License: [MIT](./LICENSE)
