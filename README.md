@@ -10,3 +10,10 @@ Build tools:
 Editor:
 
  - [Geany](https://www.geany.org/)
+
+<br>
+Run cmake:
+
+```
+cmake -S source -B build
+```
